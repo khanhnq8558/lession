@@ -10,6 +10,7 @@ int t[31];
 int x[31];
 
 // Do ket qua in ra moi lan la khac nhau vi the can them 1 tham so truyen vao la so phan tu
+//testcreatebranch
 void inketqua(int k)
 {
     cout << "(";
