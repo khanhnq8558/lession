@@ -17,6 +17,23 @@
         </style>
         <h1>Hello</h1>
         <h2>Quynh Nhu bi Khung</h2>
-        <h3>test</h3>
+        <div>
+            <!-- Thẻ img không có thuộc tính src -->
+            <img id="image" src="" />
+        </div>
+    
+        <button type="button"
+            onclick="show()" id="btnID">
+            Hiện ảnh
+        </button>
+        <script>
+            function show() {
+                /* Tải ảnh ảnh thay đổi thuộc tính src */
+                let image = document.getElementById("image");
+                image.src ="lnqn.png"
+                document.getElementById("btnID")
+                        .style.display = "none";
+            }
+        </script>
     </body>
 </html>
