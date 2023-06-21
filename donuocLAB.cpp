@@ -14,6 +14,7 @@ void donuoc(int ix, int iy) // Do nuoc tu binh p[ix] vao binh p[iy]
     if(p[iy] == maxp[iy]) return; // Binh iy day thi khong do
     if(p[ix] == 0) return; // Binh ix rong thi cung khong co gi de do
     /*Sau moi lan do luon co 1 binh het hoac 1 binh tran*/
+    //Khanh test comment
     if(p[ix]+p[iy] > maxp[iy]) // Do tran binh iy
     {
         p[ix] = p[ix] + p[iy] - maxp[iy];
