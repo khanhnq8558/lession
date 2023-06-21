@@ -17,11 +17,20 @@
         </style>
         <h1>Hello</h1>
         <h2>Quynh Nhu bi Khung</h2>
-        <div>
+        <style>
+            .box {
+              width: auto;
+              height: auto;
+            }
+            img {
+              width: 350px;
+              height: 350px;
+            }
+          </style>
+        <div class="box">
             <!-- Thẻ img không có thuộc tính src -->
             <img id="image" src="" />
         </div>
-    
         <button type="button"
             onclick="show()" id="btnID">
             Hiện ảnh
@@ -30,7 +39,7 @@
             function show() {
                 /* Tải ảnh ảnh thay đổi thuộc tính src */
                 let image = document.getElementById("image");
-                image.src ="lnqn.png"
+                image.src ="IMG_0129 (1).jpg"
                 document.getElementById("btnID")
                         .style.display = "none";
             }
